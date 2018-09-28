@@ -1,12 +1,13 @@
 (ns ua
-  (:import [net.sf.uadetector.service
-            UADetectorServiceFactory]
+  (:require [clojure.string :as str])
+  (:import [net.sf.uadetector.service UADetectorServiceFactory]
 
            [net.sf.uadetector
             UserAgent
             VersionNumber
             OperatingSystem
-            DeviceCategory]))
+            DeviceCategory
+            UserAgentStringParser]))
 
 (def ^:private parser
   (UADetectorServiceFactory/getResourceModuleParser))
@@ -15,7 +16,7 @@
   (->clj [x]))
 
 (defn parse [^String user-agent]
-  (->clj (.parse parser user-agent)))
+  (->clj (.parse ^UserAgentStringParser parser user-agent)))
 
 (extend-protocol ToClojure
 
