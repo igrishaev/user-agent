@@ -1,6 +1,6 @@
-(ns ua-test
+(ns user-agent-test
   (:require [clojure.test :refer :all]
-            ua))
+            [user-agent :as ua]))
 
 
 (def ua-desktop

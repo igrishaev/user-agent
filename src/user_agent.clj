@@ -1,4 +1,4 @@
-(ns ua
+(ns user-agent
   (:require [clojure.string :as str])
   (:import [net.sf.uadetector.service UADetectorServiceFactory]
 

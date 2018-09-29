@@ -1,7 +1,7 @@
-(defproject ua "0.1.0-SNAPSHOT"
+(defproject user-agent "0.1.0-SNAPSHOT"
 
   :description "User-Agent parser"
-  :url "https://github.com/igrishaev/ua"
+  :url "https://github.com/igrishaev/user-agent"
 
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
