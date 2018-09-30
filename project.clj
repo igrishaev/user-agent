@@ -1,4 +1,4 @@
-(defproject user-agent "0.1.0-SNAPSHOT"
+(defproject user-agent "0.1.0"
 
   :description "User-Agent parser"
   :url "https://github.com/igrishaev/user-agent"
