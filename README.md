@@ -62,7 +62,7 @@ Add it into your dependencies vector:
 
 ## License
 
-Copyright © 2018 Ival Grishaev
+Copyright © 2018 Ivan Grishaev
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
