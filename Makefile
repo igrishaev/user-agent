@@ -6,5 +6,5 @@ repl:
 test:
 	lein test
 
-deploy:
-	lein deploy clojars
+release:
+	lein release
