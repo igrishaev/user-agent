@@ -1,4 +1,4 @@
-(defproject user-agent "0.1.1"
+(defproject user-agent "0.1.2-SNAPSHOT"
 
   :description
   "User-Agent parser"
