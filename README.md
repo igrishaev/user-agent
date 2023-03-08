@@ -12,7 +12,7 @@ Java package.
 Add it into your dependencies vector:
 
 ```clojure
-[user-agent "0.1.0"]
+[user-agent "0.1.1"]
 ```
 
 ## Usage
